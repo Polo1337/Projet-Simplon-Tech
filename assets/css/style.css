@@ -71,7 +71,16 @@ hr {
     .carousel-item {
         background-position: center;
         background-size: cover;
-        height: 400px;
+        height: 500px;
+    }
+
+    .nono {
+        background-image: url(../img/a3fu0aufs8q21.jpg);
+    }
+
+    .bobo {
+        background-image: url(../img/Client-Testimonials-Powerpoint-and-Keynote-Template.jpg);
+        margin-bottom: 50px;
     }
 
     .yoyo {
@@ -91,15 +100,15 @@ hr {
     }
 }
 
-@media only screen and (min-width:1642px){
+
+@media only screen and (min-width:1450px){
     .carousel-item {
         height: 600px;
     }
 }
 
-.prod1 {
-    width: 50px;
-}
+
+
 
 /* FORMULAIRE DE CONTACT********************** */
 /* Style inputs with type="text", select elements and textareas */
@@ -137,6 +146,6 @@ input[type=text], select, textarea {
   }
 
   /* CArousel testimonial********************** */
-  .testi {
+  /* .testi {
       margin-top: 50px;
-  }
+  } */
